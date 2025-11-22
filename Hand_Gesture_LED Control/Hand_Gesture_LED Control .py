@@ -3,7 +3,7 @@ import mediapipe as mp
 import requests
 import time
 
-ESP_IP = "http://192.168.141.109"  # ← ESP32 IP YAHI DAALO
+ESP_IP = "http://192.168.141.109"  # ← Put ESP32 IP Here
 
 mpHands = mp.solutions.hands
 hands = mpHands.Hands(max_num_hands=1)
